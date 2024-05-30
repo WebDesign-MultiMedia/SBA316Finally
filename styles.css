@@ -1,0 +1,127 @@
+:root{
+    --h1-color: #ffd781;
+    --darkBlue: #2059ad;
+
+    --primary-color: #d5eeff;
+    --sec-color: #f7ca44;
+    --third-color: #a2792f;
+    --fourth-color: #5c3c10;
+
+    --fifth-color: #0c356a;
+    --sixth-color: #0174bc;
+    --seventh-color: #ffc436;
+    --eighth-color: #fff0ce;
+}
+
+
+header h1{
+    color: red;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-size: 3vw;
+}
+
+header img{
+    height: 20vw;
+    width: 30vw;
+    margin-left: 35%;
+    margin-top: 100px;
+    position:static;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+ header, a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+
+
+ footer, #homeColor .fa-house{
+    color: red;
+    font-size: 1em;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    padding-bottom: 300px;
+}
+
+
+
+
+
+section img{
+ 
+    height: 100%;
+    width: 40%;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    position:static;
+
+} 
+
+#services{
+    display: inline-flex;
+    position: relative;
+    top: 200px;
+    margin-bottom: 450px;
+
+} 
+
+#services h2{
+    color: red;
+    position: absolute;
+    left: 30%;
+    top: -30px;
+    font-size: 2.5vw;
+}
+
+#services li{
+    color: purple;
+    list-style: none;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer{
+background-color: red;
+width: 100%;
+position: fixed;
+bottom: -0;
+}
+
+footer li{
+    display: inline-flex;
+    position: relative;
+    left: 30vw;
+    padding-right: 10vw;
+}
+
+footer .fa-brands, .fa-solid{
+    font-size:4vw;
+}
+footer p{
+    color: #d5eeff;
+    text-align: center;
+}
