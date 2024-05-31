@@ -1,5 +1,5 @@
 :root{
-    --h1-color: #ffd781;
+    --h1-color: #d98533;
     --darkBlue: #2059ad;
 
     --primary-color: #d5eeff;
@@ -11,10 +11,12 @@
     --sixth-color: #0174bc;
     --seventh-color: #ffc436;
     --eighth-color: #fff0ce;
+
+    
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: var(--darkBlue);
 }
 
 #btn{
@@ -33,7 +35,7 @@ body{
 header h1{
     color: red;
     position: absolute;
-    left: 38%;
+    left: 30%;
     top: 10%;
     font-size: 3vw;
 
@@ -69,7 +71,7 @@ header li{
 
 
  footer, #homeColor .fa-house{
-    color: red;
+    color: black;
     font-size: 1em;
 }
 

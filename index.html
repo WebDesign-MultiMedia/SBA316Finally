@@ -65,7 +65,7 @@
 
         <section id="form">
             <h2>Get Your Quote</h2>
-            <form action="" method="post" accept-charset="UTF-8">
+            <form name="quoteForm" onsubmit="return Validation()" action="" accept-charset="UTF-8">
                 <div>
                   <label for="name">Your Name</label>
                   <input name="Name" id="name" type="text" placeholder="First Last Name" required />
@@ -79,11 +79,14 @@
                   <input name="question-section" id="question-section" type="text" placeholder="Questions/Concerns/Quote"/> <br>
                 </div>
                 <div>
-                  <input type="submit" value="Submit" />
-                  <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
-                    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                  <input  type="submit" value="Submit" />
                     </div>
                 </section>
+
+                <ul id="quickMessage">
+                    
+                </ul>
+
     </main>
 
     <footer id="foot">
