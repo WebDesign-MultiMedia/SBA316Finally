@@ -1,6 +1,6 @@
-//  window.alert(' this is only a Test')
-// let some = window.prompt('Please enter your Name:')
-// alert('Welcome' + " " + some)
+window.alert(' this is only a Test')
+let some = window.prompt('Please enter your Name:')
+alert('Welcome' + " " + some)
 
 const contact = document.getElementById('contact');
 contact.style.height = '300px'
@@ -43,9 +43,9 @@ newEl.style.bottom = '-200px';
 newEl.style.borderRadius = "30%"
 newEl.style.width = '15em';
 newEl.style.textAlign = 'center';
-newEl.style.color = 'var(--darkBlue)';
+newEl.style.color = 'white';
 newEl.style.fontWeight = 'bold'
-newEl.style.background = 'var(--primary-color)';
+newEl.style.background = 'var(--darkBlue)';
 newEl.style.boxShadow = '2px 2px 2px black';
 newEl.appendChild(sideNav);
 
@@ -54,8 +54,7 @@ const newli = document.createDocumentFragment();
 
 
 
-const footer = document.body
-    footer.addEventListener('click', () =>{
+const footer = document.body.addEventListener('click', () =>{
 
        if(document.body.style.background === 'gray' ){
         document.body.style.background = 'var(--darkBlue)';
@@ -137,6 +136,11 @@ navA.forEach(item =>{
     changeStyle.style.color = 'red';
     changeStyle.style.listStyle = 'none'
     changeStyle.style.fontWeight = 'bold';
+
+
+
+
+    
 
   function Validation(){
     let errorOne = document.forms['quoteForm']['question-section'].value;
