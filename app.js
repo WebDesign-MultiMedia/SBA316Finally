@@ -1,6 +1,6 @@
- window.alert(' this is only a Test')
-let some = window.prompt('Please enter your Name:')
-alert('Welcome' + " " + some)
+//  window.alert(' this is only a Test')
+// let some = window.prompt('Please enter your Name:')
+// alert('Welcome' + " " + some)
 
 const contact = document.getElementById('contact');
 contact.style.height = '300px'
@@ -63,7 +63,7 @@ text.style.background = 'lightblue';
 
 })
 
-const footer = document.getElementById('btn')
+const footer = document.body
     footer.addEventListener('click', () =>{
 
        if(document.body.style.background === 'gray' ){
@@ -85,5 +85,22 @@ const footer = document.getElementById('btn')
         foot.style.background = 'var(--darkBlue)';
    })
 
+   const list = document.querySelector('a');
+   list.addEventListener('mouseenter', () =>{
+            list.style.background = 'white';
+            list.style.fontSize = '1em';
+            list.style.color = 'red';
+            list.style.textShadow = 'none'
 
-   
+            list.addEventListener('mouseleave', ()=>{
+                list.style.background = 'var(--darkBlue)';
+                list.style.color = 'white';
+                list.style.textShadow = '2px 2px 3px black'
+                list.style.borderRadius = '50%';
+                list.style.border = '2px solid var(--h1-color)'
+            })
+   })
+
+ 
+
+
