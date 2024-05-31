@@ -17,15 +17,15 @@
 header h1{
     color: red;
     position: absolute;
-    left: 40%;
-    top: 5%;
+    left: 38%;
+    top: 10%;
     font-size: 3vw;
 }
 
 header img{
-    height: 20vw;
-    width: 30vw;
-    margin-left: 35%;
+    height: 30vw;
+    width: 50vw;
+    margin-left: 25%;
     margin-top: 100px;
     position:static;
 }
@@ -96,16 +96,47 @@ section img{
     list-style: none;
     margin-left: 5vw;
     text-align: center;
+    font-size: 1.5em;
+}
+
+#contact{
+    position: relative;
+    top: 2em;
+    margin-bottom: 45em;
+}
+#contact h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+#contact li{
+    list-style: none;
+    text-align: center;
 }
 
 
 
+#form h2{
+    text-align: center;
+    font-size: 2em;
+}
 
+#form{
+    border: 2px solid red;
+    width: 30%;
+    height: 20em;
+}
 
+#form div{
+    text-align: center;
+}
 
+#form #question-section{
+    height: 100px;
+}
 
 footer{
-background-color: red;
+background-color: gray;
 width: 100%;
 position: fixed;
 bottom: -0;
@@ -119,9 +150,11 @@ footer li{
 }
 
 footer .fa-brands, .fa-solid{
-    font-size:4vw;
+    font-size:2.5vw;
+    color: white;
 }
 footer p{
     color: #d5eeff;
-    text-align: center;
+    position: relative;
+    left: 42%;
 }
